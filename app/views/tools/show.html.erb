@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Category:</b>
+  <%= @tool.category_id %>
+</p>
+
+<p>
+  <b>Make:</b>
+  <%= @tool.make %>
+</p>
+
+<p>
+  <b>Model:</b>
+  <%= @tool.model %>
+</p>
+
+<p>
+  <b>Condition:</b>
+  <%= @tool.condition %>
+</p>
+
+<p>
+  <b>Comment:</b>
+  <%= @tool.comment %>
+</p>
+
+
+<%= link_to 'Edit', edit_tool_path(@tool) %> |
+<%= link_to 'Back', tools_path %>

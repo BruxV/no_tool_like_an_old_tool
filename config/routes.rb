@@ -1,4 +1,8 @@
 NoToolLikeAnOldTool::Application.routes.draw do
+  resources :tools
+
+  resources :categories
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
